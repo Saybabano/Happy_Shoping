@@ -7,8 +7,8 @@ function BakeryBiscuit() {
     const products = [
         {
           id: 1,
-          image: "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=70,metadata=none,w=270/app/assets/products/sliding_images/jpeg/a1ba074a-c085-4dd1-b4a4-2f247d6f211d.jpg?ts=1711010249",
-          ProductName: "Pakistani Suits Tranding black suits",
+          image: "https://images.meesho.com/images/products/138912918/27rya_400.webp",
+          ProductName: "Himanshi food services-jeera Cookie BISCUIT 400GRAM",
           Price: '₹549',
           Charges: "Free Delivery",
           rate: '4.5',
@@ -17,8 +17,8 @@ function BakeryBiscuit() {
         },
         {
           id: 2,
-          image: "",
-          ProductName: "Princess Elegant Girls Frocks & Dresses",
+          image: "https://images.meesho.com/images/products/177811606/scuhx_512.webp",
+          ProductName: "Pack of 4 Pran Potata Spicy Flavoured Biscuit original imported Potato Biscuit- 75Gm Each",
           Price: '₹599',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -27,8 +27,8 @@ function BakeryBiscuit() {
         },
         {
           id: 3,
-          image: "",
-          ProductName: "Georgette Blue Mirror Work Saree With Blouse",
+          image: "https://m.media-amazon.com/images/I/51+WGQsEKYL._SX300_SY300_.jpg",
+          ProductName: "Karachi Bakery Almond Millet Biscuits, 300g Biscuit",
           Price: '₹459',
           Charges: "Free Delivery",
           rate: '3.8',
@@ -38,8 +38,8 @@ function BakeryBiscuit() {
         },
         {
           id: 4,
-          image: "",
-          ProductName: "White Designer georgette sequence saree",
+          image: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTTigHkXokDueAAB6v5n102rZLekf8MZYZkF7LiwdVO14KXfBo2AgW9qREDJOOIeVKhiny5pm63A_xgq9xIZhCXhmLP4rJzyptluHg3n6OY_LW4_WlN2TMgDEQ&usqp=CAE",
+          ProductName: "Karachi Bakery Pistachio Biscuits ",
           Price: '₹759',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -49,8 +49,8 @@ function BakeryBiscuit() {
         },
         {
           id: 5,
-          image: "",
-          ProductName: "Pearl beads stylish women party clutch purse",
+          image: "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/12/16/1/MW1002_molly-yeh-italian-bakery-cookies-2_s4x3.jpg.rend.hgtvcom.686.515.suffix/1639703749954.webp",
+          ProductName: "Italian Cookies | Fancy Bakery Cookies | Gourmet Cookies | Fudge Cookies ... Butter Biscuit",
           Price: '₹659',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -60,8 +60,8 @@ function BakeryBiscuit() {
         },
         {
           id: 6,
-          image: "",
-          ProductName: " Long Sleeve T-shirt, Casual Square Neck Top",
+          image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRhUkYqgvZw-c-buPTx_qpwZ8leW_EpyjRXUoRUOSdvSxfEAdy3WOzLlUqMZeZGp0D4wWXl1QdjdcKUVdUR7ztXFboY-45K&usqp=CAE",
+          ProductName: "Hyderabadi Cookies 250g",
           Price: '₹309',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -71,8 +71,8 @@ function BakeryBiscuit() {
         },
         {
           id: 7,
-          image: "",
-          ProductName: "New Stylish Men's Warist Watch",
+          image: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR28qZD24_ZmoLAQwFG_HvYlgwjQmeqLoX0hQuZMTKvhwtJle66D-8ShFG5e-5GP3FkzWvKBSKBn67g11NIiGCg9boORup1ctBnGgeRqupdRuKVIveE_kjLAg&usqp=CAE",
+          ProductName: "Bikaji Bhujia No.1",
           Price: '₹259',
           Charges: "Free Delivery",
           rate: '4.1',
@@ -82,8 +82,8 @@ function BakeryBiscuit() {
         },
         {
           id: 8,
-          image: "",
-          ProductName: "Elasticated Side Slit Skirt for Women",
+          image: "https://www.marcellinaincucina.com/wp-content/uploads/2023/08/italian-butter-cookies-hero.jpg",
+          ProductName: "Italian Butter Cookies,",
           Price: '₹279',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -93,8 +93,8 @@ function BakeryBiscuit() {
         },
         {
           id: 9,
-          image: "",
-          ProductName: "White Stylish Comfortable Casual Sneaker Shoes",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzBHOqgR-SGd7fTaVtYxc2TVBGV-4TcgLERQ&s",
+          ProductName: "pagran Namkeen Snacks Biscuits Cookeis",
           Price: '₹399',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -104,8 +104,8 @@ function BakeryBiscuit() {
         },
         {
           id: 10,
-          image: "",
-          ProductName: "Men's full Sleeve Regular Polo Cotton Blend Tshirt",
+          image: "https://i.gadgets360cdn.com/products/butter-delite-namkeen-biscuits-large-94329-163598-1591880032-1.jpeg",
+          ProductName: "Priyagold Butter Delite Namkeen Biscuits",
           Price: '₹359',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -115,8 +115,8 @@ function BakeryBiscuit() {
         },
         {
           id: 11,
-          image: "",
-          ProductName: "Lightly Padded Sport Bra Underwear Women",
+          image: "https://bombaysweetshop.com/cdn/shop/files/Namkeen_Jeera_Cookies_-_Pack_of_3_-_Web_-4.5_-_processed.png?v=1727157636&width=1445",
+          ProductName: "Namkeen Jeera Cookies – Bombay Sweet Shop",
           Price: '₹459',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -126,8 +126,8 @@ function BakeryBiscuit() {
         },
         {
           id: 12,
-          image: "",
-          ProductName: "New Dubai Design Embroidery work Abaya",
+          image: "https://myhealthytreat.in/cdn/shop/products/ComboImage1_Allproducts_1200x.png?v=1662691655",
+          ProductName: "4-Pack High Protein Roasted Namkeen Combo by Healthy Treat - HEALTHY TREAT",
           Price: '₹678',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -137,8 +137,8 @@ function BakeryBiscuit() {
         },
         {
           id: 13,
-          image: "",
-          ProductName: "Cute baby Girls Frocks Dresses",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGWXQhkRgTB-B3yMxVMd_JQNyyHPeFlYpUcg&s",
+          ProductName: "Namkeen Biscuit",
           Price: '₹248',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -148,8 +148,8 @@ function BakeryBiscuit() {
         },
         {
           id: 14,
-          image: "",
-          ProductName: "Urbane Elegant Women Trousers",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkn-xe7ndDIaXvbMJMXnAOEyLbTnGfCNtOUTUQa3Qme-lLmvhjMcvvEFwE_OvBN1846_8&usqp=CAU",
+          ProductName: "Mansoon में नमकीन, बिस्किट, स्नैक्स जल्दी हो जाते हैं नरम, तो Follow करें ये Tips, ताकि कुरकुरे-क्रंची रहें स्नैक्स ... - Lalluram",
           Price: '₹559',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -159,8 +159,8 @@ function BakeryBiscuit() {
         },
         {
           id: 15,
-          image: "",
-          ProductName: "Cotton Back Printed Boxy T-shirt",
+          image: "https://i0.wp.com/smittenkitchen.com/wp-content/uploads//2017/10/bakery-style-butter-cookies.jpg?fit=750%2C500&ssl=1",
+          ProductName: "Bakery-Style Butter Cookies- Bakery-Style Butter Cookies",
           Price: '₹189',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -170,8 +170,8 @@ function BakeryBiscuit() {
         },
         {
           id: 16,
-          image: "",
-          ProductName: "Adrika Voguish Women Kurta Sets",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJoQjY0mBZozuAzsiwpdmnsrqvOa707vc7AQ&s",
+          ProductName: "DORITOS® FLAMIN' HOT® Limon Flavored Tortilla Chips | Doritos",
           Price: '₹589',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -184,7 +184,7 @@ function BakeryBiscuit() {
   return (
     <>
       <Navbar/>
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4 justify-items-center">
       {products.map((product) => (
         <div
           key={product.id}

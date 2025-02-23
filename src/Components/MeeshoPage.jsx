@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const images = [
   "https://rukminim2.flixcart.com/fk-p-flap/1620/270/image/373914b13f0b4dfb.jpg?q=20",
@@ -15,19 +15,18 @@ function MeeshoPage() {
       setCurrentIndex((prevIndex) =>
         prevIndex === images.length - 1 ? 0 : prevIndex + 1
       );
-    }, 5000); // Change image every 5 seconds
+    }, 4000); // Change image every 5 seconds
 
     return () => clearInterval(interval);
   }, []);
 
   return (
     <div className="relative w-full mt-4">
-
       <div className="overflow-hidden relative rounded-lg">
         <img
           src={images[currentIndex]}
           alt="Product"
-         className="w-[3000px] h-60 object-cover transition-all duration-1000 ease-in-out"
+          className="w-full h-[400px] object-cover transition-all duration-1000 ease-in-out"
         />
       </div>
     </div>

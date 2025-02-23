@@ -18,7 +18,7 @@ const Scrollbar = () => {
   };
 
   return (
-    <div className="relative flex items-center p-4 border-b">
+    <div className="relative flex items-center p-4">
       {/* Left Arrow */}
       <button
         className="absolute left-0 bg-white p-2 rounded-full shadow-md hover:bg-gray-100 z-10"
@@ -30,7 +30,7 @@ const Scrollbar = () => {
       {/* Scrollable Navbar (Locked for manual scrolling) */}
       <div
         ref={navRef}
-        className="flex space-x-6 px-10"
+        className="flex justify-between space-x-14 px-10 mx-3 ml-14 "
         style={{
           overflowX: "hidden", // Hides scrollbar and prevents manual scrolling
           whiteSpace: "nowrap",

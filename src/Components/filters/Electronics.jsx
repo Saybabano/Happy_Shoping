@@ -6,8 +6,8 @@ function Electronics() {
     const products = [
         {
           id: 1,
-          image: "https://images.meesho.com/images/products/318858183/ueg1h_512.webp",
-          ProductName: "Pakistani Suits Tranding black suits",
+          image: "https://m.media-amazon.com/images/I/31lYlI1JNlL._AC._SR120,120.jpg",
+          ProductName: "Projector Remote with Timer & Sle",
           Price: '₹549',
           Charges: "Free Delivery",
           rate: '4.5',
@@ -16,8 +16,8 @@ function Electronics() {
         },
         {
           id: 2,
-          image: "https://wholesalemegamart.com/wp-content/uploads/2024/05/MURTI-TRENDS-COTTON-MUGAL-PRINTED-ANARKALI-GOWN-2.jpeg",
-          ProductName: "Princess Elegant Girls Frocks & Dresses",
+          image: "https://m.media-amazon.com/images/I/5155XZ+EHyL._AC._SR240,240.jpg",
+          ProductName: "Media Streaming Device and Remote with Timer & Sle",
           Price: '₹599',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -26,8 +26,8 @@ function Electronics() {
         },
         {
           id: 3,
-          image: "https://thelotusfab.in/cdn/shop/files/ShrijiAvadh-SC-252_1.jpg?v=1714126752",
-          ProductName: "Georgette Blue Mirror Work Saree With Blouse",
+          image: "https://m.media-amazon.com/images/I/61b-kiCqW5L._AC._SR360,460.jpg",
+          ProductName: "Oboe Silicone TV Remote,Remote with Timer & Sle",
           Price: '₹459',
           Charges: "Free Delivery",
           rate: '3.8',
@@ -37,8 +37,8 @@ function Electronics() {
         },
         {
           id: 4,
-          image: "https://images.meesho.com/images/products/329923632/fwpiu_512.webp",
-          ProductName: "White Designer georgette sequence saree",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcV74bfgohjDbHMlWXe99NXxWjS5urh-6Zhw&s",
+          ProductName: "Electric Refrigerator,Remote with Timer & Sle",
           Price: '₹759',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -48,8 +48,8 @@ function Electronics() {
         },
         {
           id: 5,
-          image: "https://images.meesho.com/images/products/377819345/pqjws_512.webp",
-          ProductName: "Pearl beads stylish women party clutch purse",
+          image: "https://luckybee.in/wp-content/uploads/2022/06/Philips-HD697500-25-Litre-Digital-Oven-Toaster-Grill-Grey-25-liter-0-6.jpg",
+          ProductName: "Philips Viva Collection 25L Oven Toaster Grill",
           Price: '₹659',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -59,8 +59,8 @@ function Electronics() {
         },
         {
           id: 6,
-          image: "https://images.meesho.com/images/products/376272585/dca2w_512.webp",
-          ProductName: " Long Sleeve T-shirt, Casual Square Neck Top",
+          image: "https://m.media-amazon.com/images/I/41QqyMrjZlS._AC_UF1000,1000_QL80_.jpg",
+          ProductName: "KISAN PUMP 12 mm Wires Electric,Remote with Timer & Sle",
           Price: '₹309',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -70,8 +70,8 @@ function Electronics() {
         },
         {
           id: 7,
-          image: "https://images.meesho.com/images/products/228143446/xso8v_512.webp",
-          ProductName: "New Stylish Men's Warist Watch",
+          image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQUp2XZDIM_Y0sIzfV-I-gJqjkSqFNeNSG7H6moUBS9lsOg9tNCiEFLKyldBqF6UTLKasH0WzRpmxHryZ_9UH7vbee75G5pb3X3m9ZqJl4&usqp=CAE",
+          ProductName: "TTS-120 120pcs T Tap Electrical Wire Connectors Kit",
           Price: '₹259',
           Charges: "Free Delivery",
           rate: '4.1',
@@ -81,8 +81,8 @@ function Electronics() {
         },
         {
           id: 8,
-          image: "https://images.meesho.com/images/products/424152951/aqprb_512.webp",
-          ProductName: "Elasticated Side Slit Skirt for Women",
+          image: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQhc2pbIUYcapzBYtBqCNS6Jfx5Oz748qg69mgapjWfy8h5W1uQ2ykhr-E3pS16wg_ApcluQ_M3NARNp7LhP3HjN_Qcxe60J1oMHaPr_LDVsI5AUUGYqXytwA&usqp=CAE",
+          ProductName: "Mini Portable TV | Worldtech Tft977p 9 Mini Portable Tv",
           Price: '₹279',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -92,8 +92,8 @@ function Electronics() {
         },
         {
           id: 9,
-          image: "https://images.meesho.com/images/products/478520398/c7vtg_400.webp",
-          ProductName: "White Stylish Comfortable Casual Sneaker Shoes",
+          image: "https://m.media-amazon.com/images/I/711yPjrCASL._AC_UY218_.jpg",
+          ProductName: "Tapo TP-Link C200 360° 2MP 1080p Full HD Pan/Tilt Home Security Wi-Fi Smart Camera| Alexa Enabled| 2-Way",
           Price: '₹399',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -103,8 +103,8 @@ function Electronics() {
         },
         {
           id: 10,
-          image: "https://images.meesho.com/images/products/338361691/6wvdf_512.webp",
-          ProductName: "Men's full Sleeve Regular Polo Cotton Blend Tshirt",
+          image: "https://m.media-amazon.com/images/I/71Yootv6u3L._AC_CR0%2C0%2C0%2C0_SX410_SY308_.jpg",
+          ProductName: "Boult X Mustang Newly Launched Torq TWS Earbuds with 60H Playtime, App",
           Price: '₹359',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -114,8 +114,8 @@ function Electronics() {
         },
         {
           id: 11,
-          image: "https://images.meesho.com/images/products/378130273/obroq_400.webp",
-          ProductName: "Lightly Padded Sport Bra Underwear Women",
+          image: "https://m.media-amazon.com/images/I/31hGmv4D5WL._SX300_SY300_QL70_FMwebp_.jpg",
+          ProductName: "ZEBRONICS Zeb-Bro in Ear Wired Earphones with Mic, 3.5mm Audio Jack, 10mm Drivers, Phone/Tablet Compatible(Blue)",
           Price: '₹459',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -125,8 +125,8 @@ function Electronics() {
         },
         {
           id: 12,
-          image: "https://images.meesho.com/images/products/460979918/yw0vg_512.webp",
-          ProductName: "New Dubai Design Embroidery work Abaya",
+          image: "https://m.media-amazon.com/images/I/61TRKPzWmBL._AC_UY218_.jpg",
+          ProductName: "Lenovo IdeaPad Slim 3 12th Gen Intel® Core™ i5-12450H 15.6 inch (39.6cm) FHD Laptop (16GB/512GB",
           Price: '₹678',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -136,8 +136,8 @@ function Electronics() {
         },
         {
           id: 13,
-          image: "https://images.meesho.com/images/products/340208354/6wrr0_400.webp",
-          ProductName: "Cute baby Girls Frocks Dresses",
+          image: "https://m.media-amazon.com/images/I/81m8RU7ZV0L._AC_UY218_.jpg",
+          ProductName: "atomberg Renesa 400mm Wall Mount Fan  Remote with Timer & Sle",
           Price: '₹248',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -147,8 +147,8 @@ function Electronics() {
         },
         {
           id: 14,
-          image: "https://images.meesho.com/images/products/423230757/hnuvj_512.webp",
-          ProductName: "Urbane Elegant Women Trousers",
+          image: "https://m.media-amazon.com/images/I/51ZQgbCUI-L._SY445_SX342_QL70_FMwebp_.jpg",
+          ProductName: " Sunset Projection Lamp with Remote & USB – 360° Rotating LED Light for Ambiance, Selfies, Parties & Home Decor",
           Price: '₹559',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -158,8 +158,8 @@ function Electronics() {
         },
         {
           id: 15,
-          image: "https://images.meesho.com/images/products/468485320/rb11c_512.webp",
-          ProductName: "Cotton Back Printed Boxy T-shirt",
+          image: "https://m.media-amazon.com/images/I/61PzdtWJETL._AC_UY218_.jpg",
+          ProductName: "Wireless Mouse | 2.4 GHz Connection, 1600 DPI | Type - C Adapter | Upto 12 Months",
           Price: '₹189',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -169,8 +169,8 @@ function Electronics() {
         },
         {
           id: 16,
-          image: "https://images.meesho.com/images/products/422106062/ioefu_512.webp",
-          ProductName: "Adrika Voguish Women Kurta Sets",
+          image: "https://m.media-amazon.com/images/I/41igFcfu4VL._SY445_SX342_QL70_FMwebp_.jpg",
+          ProductName: "XERGY Outdoor String Lights 25 Feet G40 Globe Lights ",
           Price: '₹589',
           Charges: "Free Delivery",
           rate: '3.5',
@@ -183,7 +183,7 @@ function Electronics() {
       return (
         <>
           <Navbar/>
-          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
+          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4 justify-items-center">
           {products.map((product) => (
             <div
               key={product.id}

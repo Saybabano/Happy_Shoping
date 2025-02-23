@@ -4,13 +4,12 @@ import { Facebook, Instagram, Twitter, YouTube } from "@mui/icons-material";
 export default function Footer() {
   return (
     <Box
-      sx={{
-        width: "90vw", maxWidth: "100%",
-        bgcolor: "linear-gradient(135deg, #0a2a6c, #154ba8)", // Blue gradient
-        color: "#555", // Updated text color
+       sx={{
+        width: "100%", // Full width to match navbar
+        color: "#555",
         p: { xs: 4, md: 6 },
         mt: 4,
-        // boxShadow : "0px -3px  rgba(0, 0, 0, 0.3)",
+        boxSizing: "border-box",
       }}
     >
       <Grid container spacing={4} sx={{ justifyContent: "space-between" }}>
