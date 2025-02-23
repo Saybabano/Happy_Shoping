@@ -9,33 +9,22 @@ import DeliveryInfo from "./DeliveryInfo";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [darkMode, setDarkMode] = useState(
-    localStorage.getItem("theme") === "dark"
-  );
-
-  useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-    }
-  }, [darkMode]);
+  
 
   return (
     <div className="shadow-md bg-white dark:bg-gray-900 transition-all duration-300">
       {/* Navbar Container */}
       <div className="flex flex-wrap justify-between items-center border-b p-4 dark:border-gray-700">
         {/* Logo */}
-        <h1 className="text-2xl font-bold font-serif italic text-yellow-900 dark:text-white flex items-center">
+        <div className="flex justify-between items-center gap-2">
         <img 
             src="https://png.pngtree.com/png-vector/20220525/ourmid/pngtree-spa-logo-png-image_4721219.png" 
             alt="Logo" 
             className="navbar-logo rounded-full w-14 h-14"
-          /> Happy <span className="block">Shopping</span>
-          </h1> 
+          /> 
+          <h1 className="text-2xl font-serif italic text-blue-800 font-bold">Happy<span className="block">Shoping</span></h1>
 
+        </div>        
         {/* Delivery Info (Hidden on Small Screens) */}
         <div className="hidden lg:block">
           <DeliveryInfo />
@@ -79,16 +68,7 @@ function Navbar() {
             <span className="hover:underline">Cart</span>
           </NavLink>
 
-          {/* Dark Mode Toggle (Switch) */}
-          <div className="flex items-center gap-2">
-            <span className="text-gray-700 dark:text-white">Light</span>
-            <Switch
-              checked={darkMode}
-              onChange={() => setDarkMode(!darkMode)}
-              color="default"
-            />
-            <span className="text-gray-700 dark:text-white">Dark</span>
-          </div>
+          
         </div>
 
         {/* Mobile Menu Button */}
@@ -123,16 +103,6 @@ function Navbar() {
             Cart
           </NavLink>
 
-          {/* Dark Mode Toggle (Mobile) */}
-          <div className="flex items-center gap-2">
-            <span className="text-gray-700 dark:text-white">Light</span>
-            <Switch
-              checked={darkMode}
-              onChange={() => setDarkMode(!darkMode)}
-              color="default"
-            />
-            <span className="text-gray-700 dark:text-white">Dark</span>
-          </div>
         </div>
       )}
 

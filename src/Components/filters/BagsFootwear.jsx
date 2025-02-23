@@ -137,7 +137,7 @@ function BagsFootwear() {
     {
       id: 13,
       image: "https://rukminim2.flixcart.com/image/612/612/xif0q/shoe/s/p/6/5-firefly-04-5-asian-white-pink-original-imah3nxx9uhy8xca.jpeg?q=70",
-      ProductName: "asian Firefly-04 White Sports,Gym,Jogging,Walking,Training,St...",
+      ProductName: "asian Firefly-04 White Sports,Gym,Jogging,Walking.",
       Price: '₹248',
       Charges: "Free Delivery",
       rate: '3.5',
@@ -159,7 +159,7 @@ function BagsFootwear() {
     {
       id: 15,
       image: "https://rukminim2.flixcart.com/image/612/612/xif0q/slipper-flip-flop/r/0/v/7-flip-flop-6065-bersache-green-original-imah59m6g28rdkbh.jpeg?q=70",
-      ProductName:"BERSACHE Men Flip Flops.....",
+      ProductName: "BERSACHE Men Flip Flops.....",
       Price: '₹189',
       Charges: "Free Delivery",
       rate: '3.5',
@@ -181,31 +181,40 @@ function BagsFootwear() {
 
   ]
   return (
-    <> 
-      <Navbar/>
+    <>
+      <Navbar />
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4 justify-items-center">
-          {products.map((product) => (
+        {products.map((product) => (
           <div
             key={product.id}
-            className="w-[230px] h-[420px] p-4 rounded-md shadow-md "
+            className="w-[230px] min-h-[420px] p-4 rounded-md shadow-md flex flex-col justify-between"
           >
-            <img 
-              src={product.image} 
-              alt={product.ProductName} 
-              className="w-11/12" 
+            <img
+              src={product.image}
+              alt={product.ProductName}
+              className="w-11/12 mx-auto"
             />
-            <h5 className='  mb-2 '>{product.ProductName}</h5>
-            <p className='text-sm font-serif w-[110px] bg-green-200 text-gray-800 rounded-full p-1 mb-2'>{product.Charges}</p>
-            <div className='flex justify-between items-center'>
-              <p className=' font-bold mb-2'>{product.Price}</p>
-              {/* <button className='p-2  border border-blue-700 bg-blue-100 '>Add</button> */}
+            <h5 className="mb-2">{product.ProductName}</h5>
+            <p className="text-sm font-serif w-[110px] bg-green-200 text-gray-800 rounded-full p-1 mb-2">
+              {product.Charges}
+            </p>
+            <div>
+              <p className="bg-blue-700 w-12 rounded-full text-center text-white font-semibold inline-block mb-2">
+                {product.rate}
+              </p>
+              <span className="p-2 text-sm">{product.reviews}</span>
             </div>
-            <p className='bg-blue-700 w-12 rounded-full text-center text-white font-semibold inline-block mb-2'>{product.rate}</p>
-            <span className='p-2 text-sm'>{product.reviews}</span>
+            
+            <div className="flex justify-between items-center mt-auto">
+              <p className="font-bold">{product.Price}</p>
+              <button className="p-2 border border-blue-700 bg-blue-100 hover:bg-blue-200 text-blue-700 rounded-md">
+                Add to Cart
+              </button>
+            </div>
           </div>
         ))}
       </div>
-      <Footer/>
+      <Footer />
     </>
   )
 }
